@@ -1,69 +1,81 @@
 body {
-    font: 30px "Century Gothic", Futura, sans-serif;
-    background-color: lightgreen;
-  }
+  font: 1.5rem "Century Gothic", Futura, sans-serif;
+  background-color: lightgreen;
+}
   
   
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
-  .square {
-    background: rgb(237, 245, 165);
-    border: 3px solid rgb(184, 180, 180);
-    border-radius: 0.3rem;
-    float: left;
-    font-size: 70px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 125px;
-    width: 125px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
+.square {
+  background: rgb(237, 245, 165);
+  border: 3px solid rgb(184, 180, 180);
+  border-radius: 0.3rem;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 80px;
+  width: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
     
-  }
+}
   
-  .square:focus {
-    outline: none;
-  }
+.square:focus {
+  outline: none;
+}
 
-  .square.highlight {
-    color: deeppink;
-  }
+.square.highlight {
+  color: deeppink;
+}
   
-  .kbd-navigation .square:focus {
-    background: rgb(240, 235, 235);
-  }
+.kbd-navigation .square:focus {
+  background: rgb(240, 235, 235);
+}
   
-  .game {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .game-board {
-    margin-top: 120px;
+.game {
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
-
-  .game-info {
-    margin-left: 50px;
-  }
-
-  li button {
-    outline: none;
-    background-color: lightyellow;
-    border-radius: 20px;
-    padding: 10px;
-    color: black;
-    font-size: 16px;
-  }
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 3rem;
+}
   
-  button:hover {
-    opacity: 0.5;
-  }
+.game-board {
+  margin-top: 2rem;
+}
+
+.game-info {
+  margin: 0;
+}
+
+.position {
+  margin-top: 1.5rem;
+}
+
+li button {
+  outline: none;
+  background-color: lightyellow;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  font-size: 1rem;
+}
+  
+button:hover {
+  opacity: 0.6;
+}
+
