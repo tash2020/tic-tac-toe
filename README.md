@@ -17,7 +17,6 @@ The features I've add:
 2. Add color to the symbol of the winner.
    ![Tic-tac-toe winner](public/Tic-tac-toe%20Winner.png) 
 
-3. Make it responsive so it could be play in any devices.
-   ![Tic-tac-toe on mobile](public/Tic-tac-toe%20mobile.png)
+
    
 
