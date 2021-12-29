@@ -11,11 +11,11 @@ It is a tic-tac-toe game. It is 3x3 square with using symbol to play. The symbol
 I've learn about how React system works. Learning about **component, rendering, and history**. Further, I also add some features to the game based on [this challenge](https://reactjs.org/tutorial/tutorial.html#wrapping-up).
 
 The features I've add:
-1. Add a draw message. 
-   ![Tic-tac-toe draw message](public/Tic-tac-toe%20draw.png)
+- Add a draw message.
+![Tic-tac-toe draw message](public/Tic-tac-toe%20draw.png)
 
-2. Add color to the symbol of the winner.
-   ![Tic-tac-toe winner](public/Tic-tac-toe%20Winner.png) 
+- Add color to the symbol of the winner.
+![Tic-tac-toe winner](public/Tic-tac-toe%20Winner.png) 
 
 
    
